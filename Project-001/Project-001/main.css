@@ -1,0 +1,983 @@
+/* CSS for Navigation Bar */
+nav {
+  background-color: #f16626;
+  /* Set background color */
+  overflow: hidden;
+  /* Hide overflow content */
+  display: flex;
+  /* Use flexbox for layout */
+  justify-content: space-between;
+  /* Align items to left and right */
+  align-items: center;
+  /* Center items vertically */
+  padding: 10px;
+  /* Add padding to navigation bar */
+ 
+}
+
+nav .brand {
+  display: flex;
+  /* Use flexbox for layout */
+  align-items: center;
+  /* Center items vertically */
+
+}
+
+nav .brand img {
+  height: 30px;
+  /* Set height of logo */
+  margin-right: 10px;
+  /* Add spacing between logo and brand name */
+}
+
+nav a {
+  color: rgb(242, 242, 247);
+  /* Set link color */
+  text-align: center;
+  /* Center link text */
+  padding: 14px 16px;
+  /* Add padding to links */
+  text-decoration: none;
+  /* Remove underline from links */
+  margin-right: 10px;
+  /* Add spacing between links */
+  font-weight: bold;
+  font-size: medium;
+  letter-spacing: 0.08em;
+}
+
+nav .links a {
+  color: white;
+  /* Set link color */
+  text-align: center;
+  /* Center link text */
+  padding: 14px 16px;
+  /* Add padding to links */
+  text-decoration: none;
+  /* Remove underline from links */
+  margin-right: 20px;
+  /* Add spacing between links */
+  border-bottom: 5px solid transparent;
+  /* Add transparent border bottom */
+  transition: border-bottom-color 0.3s ease-in-out;
+  /* Add transition effect */
+  font-family: 'Varela Round', sans-serif;
+  font-size: small;
+  font-weight: bold;
+}
+
+nav .links a:hover {
+  color: #303c7a;
+  border-bottom-color: #303c7a;
+  /* Change border bottom color on hover */
+  text-decoration: none;
+  /* Remove underline on hover */
+  border-bottom: 5px solid #303c7a;
+  /* Add blue underline */
+  border-radius: 2px;
+  /* Add rounded corners to underline */
+}
+
+
+nav .button {
+  background-color: #303c7a;
+  /* Set background color */
+  color: rgb(252, 251, 253);
+  /* Set text color */
+  padding: 10px 20px;
+  /* Add padding to button */
+  border-radius: 20px;
+  /* Add rounded corners */
+  margin-right: 5px;
+  /* Add spacing between button and search symbol*/
+  border-style: none;
+  
+}
+
+nav .search {
+  color: rgb(255, 255, 255);
+  /* Set color of search symbol */
+  font-size: 20px;
+  /* Set size of search symbol */
+  font-family: 'Varela Round', sans-serif;
+}
+
+nav .search:hover {
+  color: #000000;
+  /* Change color of search symbol when hovering over it */
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* CSS for smaller screens */
+  nav .links {
+    display: none;
+    /* Hide links */
+  }
+
+  nav .actions {
+    display: none;
+    /* Hide actions */
+  }
+
+  nav .brand {
+    width: 100%;
+    /* Make brand take full width */
+  }
+
+  nav .brand img {
+    margin-right: 0;
+    /* Remove spacing between logo and brand name */
+  }
+
+  nav a {
+    display: block;
+    /* Display links as block elements */
+    margin-right: 0;
+    /* Remove spacing between links */
+  }
+}
+
+body {
+  background-color: #f16626;
+  margin: 0;
+}
+
+/* landung page left side */
+.landing1 {
+  padding-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 55%;
+}
+
+span {
+  color: #f16626;
+  background-color: rgb(255, 255, 255);
+  padding-right: 0.5ch;
+  padding-bottom: 0.3ch;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.oone {
+  color: #303c7a;
+  font-size: 2em;
+  letter-spacing: 0.07em;
+  font-family: 'Varela Round', sans-serif;
+  
+}
+
+.aaa {
+  color: #f7f2f0;
+  font-size: 1.2em;
+  font-family: 'Varela Round', sans-serif;
+
+}
+
+
+
+/*search boxs*/
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.search-box {
+  display: flex;
+}
+
+input[type="text"] {
+  padding: 10px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #303c7a;
+  border: none;
+  margin-left: none;
+  border-style: none;
+  cursor: pointer;
+}
+
+.search-box.btn {
+  display: flex;
+}
+
+/*serch box 2*/
+
+.search-containerr {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.search-boxx {
+  display: flex;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  
+}
+
+.btn {
+  padding: 10px;
+  background-color: #303c7a;
+  border: none;
+  margin-left: none;
+  border-style: none;
+  cursor: pointer;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.search-box.btn {
+  display: flex;
+}
+
+::placeholder {
+  color: #f16626;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  border-style: none;
+  border: none;
+}
+
+
+/* landing 2 */
+.box {
+  background-color: white;
+  margin: 7% 10%;
+  height: 150px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.crcl {
+  background-color: white;
+  width: 100%;
+  max-width: 885px;
+  height: 140px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.crclbox {
+  background-color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: dashed 2px #f16626;
+  display: flex;
+  justify-content: center;
+}
+
+
+/*2nd pge*/
+
+.landing2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  /*padding: 20px;*/
+  height: 665px;
+  width: 100%;
+  margin: none;
+}
+
+#lan1 {
+  margin-top: none;
+  margin-bottom: 0;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 7vw;
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #303c7a;
+}
+
+#lan2 {
+  font-size: 3vw;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  color: #f16626;
+}
+
+#lan3 {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+
+
+/*flags*/
+.flags {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+.flags img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*button 2 see all*/
+
+.rectangle-box {
+  margin-top: 0%;
+  display: flex;
+ 
+}
+
+.see-all {
+  background-color: #f16626;
+  color: white;
+  height: auto;
+  padding: 10px;
+  flex-grow: 1;
+  margin-right: 1px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#go-button {
+  background-color:#303c7a;
+  color: white;
+  padding: 10px;
+  height: auto;
+  flex-grow: 1;
+  border: none;
+  margin-left: -5px;
+  font-family: 'Varela Round', sans-serif;
+
+}
+
+/*LANDING=---3*/
+
+.outer-box {
+  background-color: white;
+  border-radius: 25px;
+  padding-left: 80px;
+  padding-top: 135px;
+  padding-right: 80px;
+  margin-left: 50px;
+  margin-right: 25px;
+  margin-top: 70px;
+  height: 600px;
+  display: flex;
+}
+
+.inner-box1 {
+  flex: 1;
+  background-color: white;
+  color: #303c7a;
+  height: 280px;
+}
+
+.inner-box1 h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.inner-box1 h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.inner-box1 p {
+  margin-bottom: 10px;
+  opacity: 0.7;
+  font-style: italic;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.page03-main{
+  position: relative;
+  margin-top: -350px;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+
+.in-mian{
+  align-items: center;
+}
+.pic img{
+  position: relative;
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+  margin-top: -20%;
+  margin-left: -18%;
+  margin-bottom: -139px;
+  border: 3px solid rgb(253, 252, 252);
+  box-shadow: 0 0 10px 0.2px rgba(138, 134, 133, 0.733);
+}
+
+.detail{
+  background-color: rgba(218, 214, 214, 0.712);
+  height: 150px;
+  width: 220px;
+  border-radius: 73px;
+  justify-content: right;
+
+}
+.texts{
+  margin-left: 90px;
+  padding-block: 12px;
+
+}
+.texts p{
+  font-size: 0.7rem;
+  font-family: 'Varela Round', sans-serif;
+}
+/*page 3 button*/
+
+.rectangle-box {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-items: baseline;
+  margin-top: 0;
+  margin-bottom: 20px;
+  
+}
+
+.schedule-link {
+  background-color: #f16626;
+  color: white;
+  width: 230px;
+  padding: 10px;
+  text-decoration: none;
+  margin-right: -5px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+
+}
+
+.go-button {
+  background-color: #303c7a;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  margin-left: -5px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+
+}
+
+@media (max-width: 768px) {
+  .rectangle-box {
+    flex-direction: column;
+  }
+
+  .go-button,
+  .schedule-link {
+    margin: 0;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+}
+
+
+.inner-box2 {
+  color: #303c7a;
+  flex: 1;
+  background-color: white;
+  height: 280px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+
+.inner-box2 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.inner-box2 li {
+  margin-bottom: 10px;
+}
+
+.inner-box2 li::before {
+  content: "\2022";
+  color: #f16626;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+
+/*page 4 =========*/
+.page4{
+  margin-top: 22%;
+  background-color: white;
+  padding-top:90px;
+  padding-bottom: 130px;
+}
+ 
+#p4-01 {
+  height: 170px;
+}
+
+#p4-001 {
+  text-align: center;
+  color: black;
+  font-size: 3.5em;
+  font-family: 'Varela Round', sans-serif;
+  margin: 0;
+}
+
+#p4-002 {
+  text-align: center;
+  color: #f16626;
+  font-size: 3.5em;
+  font-family: 'Varela Round', sans-serif;
+  margin: 0;
+}
+
+#p4-003 {
+  text-align: center;
+  font-style: italic;
+  font-family: 'Varela Round', sans-serif;
+
+}
+
+#p4-02 {
+  border-radius: 25px;
+  margin-top: 5%;
+  margin-left: 8%;
+  margin-right: 10%;
+  height: 380px;
+  background-color: rgb(245, 232, 233);
+  border: 10px;
+  border-style: solid;
+  border-color: white;
+  box-shadow: 0 0 10px 0.4px rgb(139, 135, 133) ;
+  display: flex;
+
+}
+
+#left img {
+  padding-left: 13%;
+  padding-top: 3%;
+
+}
+
+
+#right{
+  margin: 3%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+element.style {
+  color: #f16626;
+}
+
+blockquote h4 {
+  display: inline-block;
+  margin-right: auto;
+  height: auto;
+  font-family: 'Varela Round', sans-serif;
+  
+}
+
+
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  height: 14px;
+  width: 16px;
+}
+
+.checked {
+  color: #f16626;
+  size: 30px;
+}
+
+
+
+/*page 5*=============*/
+
+.p5-01{
+    text-align: center;
+    font-size:4vw;
+    font-family: 'Varela Round', sans-serif;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.page5{
+    background-color: #f16626;
+    margin-top: 8%;
+}
+
+
+
+.p5-01 h1{
+    margin: 0;
+}
+
+
+
+
+.p5-02{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+.p5-02 h1{
+    margin: 0;
+    
+}
+
+.arrow{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    display: block;
+    position: absolute;
+    right: 0;
+    margin-right: 13%;
+    margin-top: 1.5%;
+    border-radius: 50%;
+    
+}
+.arrow-2{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    display: block;
+    position: absolute;
+    right: 0;
+    margin-right: 9%;
+    margin-top: 1.5%;
+    border-radius: 50%;
+    
+}
+
+.arrow span {
+    width: auto;
+    padding: 5%;
+    height: auto;
+}
+.arrow-2 span{
+  width: auto;
+  height: auto;
+  padding: 2%;
+}
+
+
+.p5-03{
+    display:flex;
+    flex-direction: row;
+    margin: 8%;
+    margin-top: 6%;
+    justify-content: space-between;
+    
+}
+
+.p5-001{
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 6%;
+    box-shadow: 0 0 8px 0.4px ;
+}
+.p5-001 img{
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+} 
+.p5-001 input{
+    margin-left: 3%; 
+}
+.p5-001 h1{
+    font-size: 1em;
+    padding-left: 3%;
+    padding-right: 2%;
+    color: #303c7a;
+    font-family: 'Varela Round', sans-serif;
+} 
+.p5-001 p{
+    font-size: small;
+    padding-left: 3%;
+    padding-right: 2%;
+    opacity: 0.5;
+    font-family: 'Varela Round', sans-serif;
+    
+
+}
+.p5-001 a{
+    padding-left: 3%;
+    padding-right: 2%;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Foooter*/
+
+
+.foooter {
+  background-color: #303c7a;
+  height: 700px;
+  width: auto;
+  
+
+}
+
+.foooter footer {
+  justify-content:space-between;
+  align-items: center;
+  
+}
+
+/*footer {
+  background-image: url("imgs/abstract-blue-background.");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:auto;
+  width: fit-content;
+}*/
+
+.footer-bg {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 70px;
+  padding-top: 180px;
+  justify-content: center;
+
+}
+
+.logo-container {
+ /* margin-right: 300px;
+  margin-top: 15%;
+  height: 150px;*/
+
+}
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  /*margin-top: 15%;
+  margin-right: 200px;*/
+
+}
+
+.links-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  
+  
+}
+.links-container li {
+  margin-right: 20px;
+  padding: 7%;
+  width: 100%;
+  font-family: 'Varela Round', sans-serif;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-weight:200;
+}
+.left-links {
+  margin-right: 20px;
+  text-decoration: none;
+
+}
+
+.right-links {
+  margin-left: auto;
+}
+
+.links-container li {
+  margin-right: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+
+.orange-button {
+  background-color: #f16626;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 350px;
+  height: 45px;
+  font-family: 'Varela Round', sans-serif;
+
+}
+.orange-button :hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+/*----------------------------------------------*/
+
+
+.white-button {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Varela Round', sans-serif;
+  
+  width: 350px;
+  height: 45px;
+
+}
+
+#Copyright{
+  color: white;
+  align-items:baseline;
+  text-align: center;
+  margin-top: 22%;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#social-media-box{
+  height:7% ;
+  width: 33%;
+  border-radius: 10px;
+  background-color:white;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+#social-media-box > .icons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Varela Round', sans-serif;
+  width: 280px;
+  height: 49px;
+
+
+  
+  
+}
+
+
+
+/*================*/
+h4{
+  display: inline-block;
+  margin-right: 15%;
+  height:auto;
+  
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background:#f16626;
+  color: wheat;
+  border-radius: 50%;
+  padding: 4%;
+  margin-left: 5%;
+}
+
+.fa-twitter {
+  background: #f16626;
+  color: white;
+  border-radius: 50%;
+  padding: 4%;
+  margin-left: 5%;
+}
+
+.fa-instagram {
+  background: #f16626;
+  color: white;
+  border-radius: 50%;
+  padding: 4%;
+  margin-left: 5%;
+}
+
+.fa-linkedin {
+  background:#f16626;
+  color: white;
+  border-radius: 50%;
+  padding: 4%;
+  margin-left: 5%;
+}
+
+.fa-youtube {
+  background: #f16626;
+  color: white;
+  border-radius: 50%;
+  padding: 4%;
+  margin-left: 5%;
+}
